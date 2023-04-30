@@ -1,0 +1,17 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+{% load static %}
+
+
+
+<h2>{{ title }}.</h2>
+
+
+<address>
+    <strong>Drive2:</strong>  <a href="https://www.drive2.ru/?ysclid=lfzi6x39ah420397338" target="_blank"><img src="{% static 'app/content/dr2.jpg' %}" alt="dr2" width="130" height="100" /></a><br />
+    <strong>Drom:</strong>  <a href="https://www.drom.ru" target="_blank"><img src="{% static 'app/content/drom.jpg' %}" alt="drom" width="130" height="100" /></a><br />
+    <strong>Канал Асафьева Стаса:</strong>  <a href="https://www.youtube.com/@AsafevLife" target="_blank"><img src="{% static 'app/content/As.jpg' %}" alt="As" width="130" height="100" /></a>
+</address>
+
+{% endblock %}
